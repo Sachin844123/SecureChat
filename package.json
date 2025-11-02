@@ -1,0 +1,23 @@
+{
+  "name": "securechat",
+  "version": "1.0.0",
+  "description": "Real-time end-to-end encrypted chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "encryption",
+    "e2ee",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cloudflared": "^0.7.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
