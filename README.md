@@ -167,15 +167,6 @@ The server will start on `http://localhost:3000` (or the configured PORT).
 - Sessions also expire after 2 users join
 - Create a new session to continue chatting
 
-## Deployment
-
-To deploy SecureChat to the internet so anyone can access it, see [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions on deploying to:
-- Railway (recommended - easiest)
-- Render
-- Heroku
-- DigitalOcean
-- Your own VPS/Server
-
 ## Technical Documentation
 
 For detailed information about the encryption implementation, key exchange protocol, and session management, see [TECHNICAL_DOCUMENTATION.md](TECHNICAL_DOCUMENTATION.md).
@@ -184,12 +175,6 @@ For detailed information about the encryption implementation, key exchange proto
 
 MIT License - Feel free to use and modify as needed.
 
-## Contributing
-
-Contributions are welcome! Please ensure that:
-- Code follows the existing style
-- Security properties are maintained
-- Documentation is updated
 
 ## Disclaimer
 
